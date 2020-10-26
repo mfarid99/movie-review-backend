@@ -11,6 +11,8 @@ const auth = require("./auth")
 
 //Middleware
 
+//blank
+
 app.use(express.json());
 app.use(cors());
 app.use(morgan("tiny"))
