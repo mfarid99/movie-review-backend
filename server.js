@@ -10,6 +10,7 @@ const NoteRouter = require("./controllers/notes")
 const auth = require("./auth")
 
 //Middleware
+//something
 
 app.use(express.json());
 app.use(cors());
